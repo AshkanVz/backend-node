@@ -36,7 +36,7 @@ mongoose.set("useCreateIndex", true);
 
 //? Router middleware :
 const origin =
-  process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://advanced-next-js-app.vercel.app/";
+  process.env.NODE_ENV === "development" ? "http://localhost:3000" : "https://fronthooks.ir";
 
 app.use(cors({ credentials: true, origin }));
 
